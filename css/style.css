@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.header__title{
+    color: black;
+}
+.header__items{
+    display: flex;
+    column-gap: 15px;
+}
+.header__text{
+    display: flex;
+    column-gap: 15px;
+}
+.header__link{
+    text-decoration: none;
+    color: red;
+    
+}
+.header__item{
+    list-style: none;
+}
+.header__span{
+    font-weight: bold;
+}
+.container{
+    padding: 0px 70px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:50px 0px
+}
+.items-2{
+    display: flex;
+    column-gap: 25px;
+    align-items: baseline;
+    list-style: none;
+}
+
+.navigation__link{
+    text-decoration: none;
+    color: gray;
+}
+.link-1{
+    color: black;
+    font-weight: bold;
+}
+.item-1{
+   background-color: gainsboro;
+    padding: 10px;
+    border-radius: 7px;
+}
+.items-1{
+    border: 4px solid pink;
+    border-radius: 7px;
+    padding: 15px 40px 15px 15px;
+    color: black;
+}
+.items-3{
+    color: black;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 7px;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 30px;
+    justify-content: center;
+
+
+}
+.body__image{
+    width: 300px;
+    height: auto;
+}
+.body__logo{
+    width: 30px;
+    height: auto;
+}
+.body__items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.body__content{
+    display: flex;
+    column-gap: 60px;
+    
+}
+.body__content-1{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    
+}
+.body__content-2{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.body__sub-text{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    background-color:gainsboro;
+    border-radius: 7px;
+    padding: 5px;
+}
+.body__text{
+    color: black;
+    font-weight: bold;
+}
+.body__like{
+    color: black;
+    font-weight: bold;
+}
+.body__views{
+    color: black;
+    font-weight: bold;
+}
+i{
+  color: grey;
+}
+
